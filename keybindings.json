@@ -1,0 +1,134 @@
+// Place your key bindings in this file to override the defaults
+[
+//key selects
+
+
+{
+    "key": "1",
+    "command": "runCommands",
+    "args": {
+    "commands": [
+      "acceptSelectedSuggestion"
+    ]
+  },
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+},
+{
+    "key": "2",
+    "command": "runCommands",
+    "args": {
+    "commands": [
+      "selectNextSuggestion",
+      "acceptSelectedSuggestion"
+    ]
+  },
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+},
+{
+    "key": "3",
+    "command": "runCommands",
+    "args": {
+    "commands": [
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "acceptSelectedSuggestion"
+    ]
+  },
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+},{
+    "key": "4",
+    "command": "runCommands",
+    "args": {
+    "commands": [
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "acceptSelectedSuggestion"
+    ]
+  },
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+},{
+    "key": "5",
+    "command": "runCommands",
+    "args": {
+    "commands": [
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "acceptSelectedSuggestion"
+    ]
+  },
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+},{
+    "key": "6",
+    "command": "runCommands",
+    "args": {
+    "commands": [
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "acceptSelectedSuggestion"
+    ]
+  },
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+},{
+    "key": "7",
+    "command": "runCommands",
+    "args": {
+    "commands": [
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "acceptSelectedSuggestion"
+    ]
+  },
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+},{
+    "key": "8",
+    "command": "runCommands",
+    "args": {
+    "commands": [
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "acceptSelectedSuggestion"
+    ]
+  },
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+},{
+    "key": "9",
+    "command": "runCommands",
+    "args": {
+    "commands": [
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "selectNextSuggestion",
+      "acceptSelectedSuggestion"
+    ]
+  },
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+},{
+    "key": "tab",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+},{
+    "key": "shift+tab",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
+}
+]
